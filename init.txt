@@ -1,0 +1,14 @@
+| Command                                                                                                                  | Purpose / Description                                                |
+| ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| `npm init -y`                                                                                                            | Initialize Node project with default `package.json`                  |
+| `npm install express cors dotenv prisma @prisma/client`                                                                  | Install backend & database dependencies                              |
+| `npm install -D typescript ts-node ts-node-dev @types/node @types/express jest ts-jest @types/jest supertest fast-check` | Install dev dependencies (TS, testing, dev server)                   |
+| `npx tsc --init`                                                                                                         | Initialize TypeScript config (`tsconfig.json`)                       |
+| `npx ts-jest config:init`                                                                                                | Initialize Jest config for TypeScript                                |
+| `git init`                                                                                                               | Initialize Git repository                                            |
+| `echo "node_modules/\ndist/\n.env\n*.log\n.DS_Store" > .gitignore`                                                       | Create `.gitignore` file for node_modules, compiled files, env, logs |
+| `git add .`                                                                                                              | Stage all files for commit                                           |
+| `git commit -m "Initial project setup: Node + TypeScript + Prisma"`                                                      | Commit initial setup to Git                                          |
+| `npx prisma init`                                                                                                        | Initialize Prisma (database toolkit, schema + `.env`)                |
+
+
