@@ -10,6 +10,6 @@
 | `git add .`                                                                                                              | Stage all files for commit                                           |
 | `git commit -m "Initial project setup: Node + TypeScript + Prisma"`                                                      | Commit initial setup to Git                                          |
 | `npx prisma init`                                                                                                        | Initialize Prisma (database toolkit, schema + `.env`)                |
-| docker-compose up -d	                                                                                                   | Start PostgreSQL container in the background
-| docker ps		                                                                                                           | List running containers and check if PostgreSQL is up
-
+| docker-compose up -d	                                                                                                   | Start PostgreSQL container in the background                         |
+| docker ps		                                                                                                           | List running containers and check if PostgreSQL is up                |
+| npx prisma db pull                                                                                                       | Pulls the database schema from PostgreSQL into Prisma                |
